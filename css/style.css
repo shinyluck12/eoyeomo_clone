@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*, a {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/**********************section1***********************/
+#sec1{
+    width: 100%; height: 100vh; /*100vh니까 창 작아지면 같이 작아짐!*/
+    background-image: url(../img/mv1.png);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+article{
+    width: 1500px;
+    margin: auto;
+}
+#sec1>article{
+    padding: 12% 0;
+}
+#sec1>article>h2{
+    font-size: 79px;
+    font-weight: bold;
+    line-height: 92px;
+    color: #ffa4c0;
+}
+#sec1>article>p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 24px;
+    color: #ffa4c0;
+}
+.join_info{
+    margin-top: 84px;
+}
+/* (=)  .join_info>a>div*/
+.p_arrow{
+    width: 47px; height: 47px;
+    display: block;
+    float: left;
+    background-color: #ffa4c0;
+    border-radius: 50%;
+    background-image: url(../img/btn_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 19px;
+    margin-right: 15px;
+}
+.join_info>a>span{
+    font-size: 14px;
+    color: #ffa4c0;
+    display: inline-block;
+    line-height: 47px;
+}
+/**********************section2***********************/
+#sec2{
+    position: relative;
+    padding-top: 200px;
+}
+#sec2>.mv_c{
+    position: absolute;
+    left: -50px; top: -100px;
+    z-index: -1;
+}
+#sec2>.txt_box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 98px;
+}
+#sec2>.txt_box>h2{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 64px;
+    color: #4d4d4d;
+    padding-right: 50px;
+    flex: 1; /*p 랑 50%주는거랑 똑같음 (1:1로 가지라는 의미)*/
+}
+#sec2>.txt_box>p{
+    font-size: 16px;
+    line-height: 31px;
+    color: #999;
+    margin-top: 11px;
+    flex: 1;
+}
+.link_list>ul{
+    width: 1560px;
+    margin-left: -60px;
+    display: flex;
+}
+.link_list>ul>li{
+    width: 25%;
+    padding-left: 60px;
+
+}
+/* .link_list>ul>li:first-child{
+    padding-left: 0;
+}
+.link_list>ul>li:last-child{
+    padding-right: 0;
+} */
+.pill{
+    display: block;
+    position: absolute;
+}
+.pill::before{
+    content: "";
+    display: block;
+    float: left;
+    margin-right: 1px;
+    width: 15px; height: 10px;
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+.link_list>ul>li>a:hover{
+    border-radius: 0 0 30px 0;
+}
+.link_list>ul>li>a:hover .pill::before{
+    transform: rotate(25deg);
+    margin-right: 3px;
+}
+.link_list>ul>li>a:hover .pill::after{
+    transform: rotate(-25deg);
+}
+.pill::after{
+    content: "";
+    display: block;
+    float: left;
+    width: 15px; height: 10px;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+/* flex가 아닌 float을 줬다면 width값을 1560으로 줘서 삐져나가게 해야 함 */
+.link_list>ul>li>a{
+    display: block;
+    height: 286px;
+    position: relative;
+    padding: 45px;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+.purple{
+    background-color: #cec0eb;
+}
+.purple:hover{
+    background-color: #aa8ce8;
+}
+.pink{
+    background-color: #ebb5cf;
+}
+.pink:hover{
+    background-color: #ef67a9;
+}
+.yellow{
+    background-color: #f6dda8;
+}
+.yellow:hover{
+    background-color: #f2cb78;
+}
+.blue{
+    background-color: #c5e1f2;
+}
+.blue:hover{
+    background-color: #7fc2eb;
+}
+
+.link_list h3{
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 24px;
+}
+.link_list img{
+    position: absolute;
+    width: 37px;
+    right: 40px; bottom: 40px;
+}
+/********************section3************************/
+#sec3{
+    position: relative;
+    padding: 297px 50px;
+}
+#sec3>h2{
+    font-size: 60px;
+    line-height: 89px;
+    color: #d2d5dd;
+    margin-bottom: 60px;
+    font-weight: 900;
+}
+.h_list>ul{
+    width: 100%; height: 200px;
+    display: flex;
+}
+.h_list>ul>li{
+    position: relative;
+    width: 25%;
+    padding-right: 42px;
+    box-sizing: border-box;
+}
+.h_list>ul>li img{
+    width: 264px; height: 202px;
+}
+.h_list>ul>li p::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: #646464;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+}
+.h_list>ul>li p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #646464;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+#sec3>div{
+    position: absolute;
+    right: -300px; top: 20%;
+    width: 662px;
+    height: 662px;
+    border-radius: 50%;
+    background-image: linear-gradient(28deg, #cec0eb 12%, #f7c2c8 87%, #000 87%);
+    align-items: center;
+    display: flex;
+}
+#sec3>div>span{
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 99px;
+    width: 100%;
+    color: #fff;
+    opacity: 0.6;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+/********************section4*************************/
+#sec4{
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 50px;
+}
+#sec4>.notice{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 80px;
+    padding-right: 43px;
+}
+.notice h2{
+    font-size: 70px;
+    line-height: 99px;
+    color: #d2d5dd;
+    font-weight: bold;
+}
+.notice a{
+    position: absolute;
+    display: block;
+    top: 50%; right: 0;
+}
+.notice a>img{
+    width: 30px;
+}
+.n_list a{
+    font-size: 22px;
+    line-height: 33px;
+    color: #444;
+    font-weight: 500;
+}
+.n_list span{
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    color: #999;
+    margin-top: 10px;
+}
+.n_img_wrap{
+    display: flex;
+    padding-left: 130px;
+    box-sizing: border-box;
+}
+.n_img>img{
+    width: calc(100% + 150px);
+}
+
+
+
+/****************media*******************/
+@media only screen and (max-width: 1500px) {
+    article{
+        width: 100%;
+    }
+    .link_list>ul{
+
+        width: calc(100% + 60px);
+    }
+
+
+}/*media 1500 */
+
+@media only screen and (max-width: 1100px) {
+    #sec1>article>h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .join_info{
+    margin-top: 42px;
+    }
+}/*media 1100 */
+
+@media only screen and (max-width: 767px) {
+    .link_list>ul{
+        flex-wrap: wrap;
+    }
+    .link_list>ul>li{
+        width: 50%;
+        padding: 7px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}

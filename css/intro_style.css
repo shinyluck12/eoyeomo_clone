@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*, a {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* title */
+#title_wrap{
+    padding: 84px 50px 0;
+}
+.title{
+    display: block;
+    background-image: url(../img/sv01.jpg);
+    background-position: 80% center;
+    height: 302px;
+    position: relative;
+    max-width: 1820px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+.title_box{
+    display: none;
+}
+.title_inner{
+    height: 100%;
+    box-sizing: border-box;
+}
+.title_1{
+    display: block;
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+}
+.title_1 strong{
+    display: block;
+    font-size: 50px;
+    line-height: 1.48;
+    color: #fff;
+    font-weight: 400;
+}
+.title_1 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+
+
+/* section 1 */
+#main_txt_wrap{
+    background-color: #ffffff;
+    padding-top: 50;
+    padding-bottom: 164px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main_txt{
+    box-sizing: border-box;
+}
+.main_box{
+    position: relative;
+}
+.m_top{
+    position: relative;
+    margin-bottom: 70px;
+}
+.m_top>h2{
+    position: relative;
+    display: block;
+    padding-left: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+.m_top>h2::before{
+    position: absolute;
+    left: 0;
+    top: 12px;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #333;
+}
+.m_top::after{
+    width: 0;
+    height: 101%;
+}
+.m_bot{
+    display: flex;
+    margin-right: -160px;
+}
+.m_bot_txt{
+    width: 829px;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+.mb_t_wrap>h3{
+    display: block;
+    font-size: 54px;
+    line-height: 1.44;
+    font-weight: bold;
+    color: #fea4c0;
+    word-break: keep-all;
+}
+.mb_t_wrap>span{
+    margin-top: 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #999;
+}
+.mb_t_1{
+    max-width: 682px;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #333;
+}
+.mb_t_2{
+    margin-top: 25px;
+    max-width: 682px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #333;
+}
+.mb_t_3{
+    margin-top: 25px;
+    max-width: 682px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #333;
+}
+.mb_t_blue{
+    color: #0076ff !important;
+}
+
+.m_bot_signbox{
+    margin-top: 100px;
+}
+.m_bot_signbox>p{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.73;
+    letter-spacing: 1.5px;
+    color: #c6e1f2;
+}
+.m_bot_signbox span{
+    display: block;
+    margin-top: 21px;
+}
+.m_bot_signbox img{
+    max-width: 100%;
+}
+.m_bot_img{
+    width: 831px;
+}
+.m_bot_img{
+    max-width: 100%;
+}
+/* media */
+@media only screen and (max-width: 1680px) {
+    #main_txt_wrap .m_bot{
+        margin-right: -30px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+
+
+}/*media 1500 */
+@media only screen and (max-width: 1250px) {
+    #title_wrap{
+        padding: 0 30px;
+        padding-top: 84px;  
+}
+    #title_wrap .title{
+        margin-bottom: 70px;
+    }
+    .title_box{
+        left: 50px;
+        bottom: 50px;
+    }
+    #main_txt_wrap .main_txt{
+        padding: 0;
+    }
+    #main_txt_wrap .m_top{
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    #main_txt_wrap .m_top h2{
+        padding-left: 0;
+    }
+    #main_txt_wrap .m_top h2::before{
+        left: -60px;
+    }
+    #main_txt_wrap .m_bot{
+        margin-right: -40px;
+    }
+    
+@media only screen and (max-width: 1023px) {
+    #main_txt_wrap{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main_box{
+        display: block;
+        width: auto;
+        }
+}/*media 1100 */
+@media only screen and (max-width: 900px) {
+    #main_txt_wrap .m_bot{
+        display: block;
+        margin-right: 0;
+    }
+    #main_txt_wrap .m_bot_txt{
+        width: 100%;
+        padding-right: 0;
+    }
+    #main_txt_wrap .mb_t_1{
+        max-width: 100%;
+    }
+    #main_txt_wrap .m_bot_img{
+        width: 100%;
+        text-align: center;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    #main_txt_wrap .m_bot_img img{
+        max-height: 70vh;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #title_wrap{
+        padding: 0 15px;
+        padding-top: 52px !important;
+    }
+    #title_wrap .title{
+        margin-bottom: 40px;
+        border-radius: 20px;
+        height: 170px;
+    }
+    #title_wrap .title_box{
+        left: 20px;
+        bottom: 30px;
+        right: 20px;
+    }
+    #title_wrap .title_box strong{
+        font-size: 24px;
+    }
+    #title_wrap .title_box p{
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    #main_txt_wrap{
+        padding-bottom: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #main_txt_wrap .m_top{
+        margin-bottom: 30px;
+    }
+    #main_txt_wrap .m_top h2{
+        font-size: 14px;
+    }
+    #main_txt_wrap .m_top h2::before{
+        left: -35px;
+        width: 25px;
+        top: 9px;
+    }
+    #main_txt_wrap .mb_t_wrap{
+        font-size: 30px;
+    }
+    #main_txt_wrap .mb_t_wrap span{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    #main_txt_wrap .mb_t_1{
+        margin-top: 40px;
+        font-size: 13px;
+    }
+    #main_txt_wrap .mb_t_2,#main_txt_wrap .mb_t_3{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    #main_txt_wrap .m_bot_signbox{
+        margin-top: 40px;
+    }
+    #main_txt_wrap .m_bot_signbox p{
+        font-size: 14px;
+    }
+    #main_txt_wrap .m_bot_signbox span{
+        margin-top: 5px;
+    }
+    #main_txt_wrap .m_bot_signbox img{
+        height: 30px;
+    }
+    #main_txt_wrap .m_bot_img{
+        padding: 0 60px;
+    }
+    #main_txt_wrap .m_bot_img img{
+        max-height: 50vh;
+    }
+}

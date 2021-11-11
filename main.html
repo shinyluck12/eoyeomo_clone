@@ -1,0 +1,735 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어여모</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main_style.css" />
+    <link rel="stylesheet" href="css/header_footer_s.css" />
+  </head>
+  <body>
+    <section id="h_top_wrap">
+      <div class="h_top">
+        <ul>
+          <li class="h_top_login">
+            <a href="#">로그인</a>
+          </li>
+          <li class="h_top_mypage">
+            <a href="#">마이페이지</a>
+          </li>
+          <li class="h_top_cart">
+            <a href="#">
+              <span class="cart_cnt">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <header>
+      <article class="header_bt">
+        <!-- logo -->
+        <h1>
+          <a href="main.html">
+            <img src="img/logo.png" />
+          </a>
+        </h1>
+        <!-- 햄버거버튼 -->
+        <div class="header_bt_ham" onclick="ham()">
+          <a href="#">
+            <b>aside menu</b>
+          </a>
+        </div>
+        <!-- 메뉴 카테고리 -->
+        <div class="menu">
+          <ul>
+            <li class="m_li_1">
+              <a href="intro.html">
+                <em>어여모 소개</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_1">
+                <li>
+                  <a href="intro.html">인사말</a>
+                </li>
+                <li>
+                  <a href="">비전&미션</a>
+                </li>
+                <li>
+                  <a href="">CI 소개</a>
+                </li>
+                <li>
+                  <a href="">오시는길</a>
+                </li>
+              </ul>
+            </li>
+            <li class="m_li_2">
+              <a href="notice.html">
+                <em>어여모 소식</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_2">
+                <li>
+                  <a href="notice.html">공지사항</a>
+                </li>
+                <li>
+                  <a href="">활동소식</a>
+                </li>
+                <li>
+                  <a href="">이벤트</a>
+                </li>
+              </ul>
+            </li>
+            <li class="m_li_3">
+              <a href="health.html">
+                <em>건강백서</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_3">
+                <li>
+                  <a href="health.html">건강상식</a>
+                </li>
+                <li>
+                  <a href="">건강정보TV</a>
+                </li>
+                <li>
+                  <a href="">매거진</a>
+                </li>
+              </ul>
+            </li>
+            <li class="m_li_4">
+              <a href="#">
+                <em>교육센터</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_4">
+                <li>
+                  <a href="">LIVE 교육시청</a>
+                </li>
+                <li>
+                  <a href="">동영상 교육</a>
+                  <ul>
+                    <li>
+                      <a href="">- 소아</a>
+                    </li>
+                    <li>
+                      <a href="">- 여성</a>
+                    </li>
+                    <li>
+                      <a href="">- 영양</a>
+                    </li>
+                    <li>
+                      <a href="">- 질병/약</a>
+                    </li>
+                    <li>
+                      <a href="">- 노인</a>
+                    </li>
+                    <li>
+                      <a href="">-약국경영</a>
+                    </li>
+                    <li>
+                      <a href="">- 제품</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">교육 오디오 클립</a>
+                </li>
+              </ul>
+            </li>
+            <li class="m_li_5">
+              <a href="#">
+                <em>학술정보센터</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_5">
+                <li>
+                  <a href="">학술 FAQ</a>
+                </li>
+                <li>
+                  <a href="">어여모 지식iN</a>
+                </li>
+                <li>
+                  <a href="">전문자료</a>
+                </li>
+                <li>
+                  <a href="">어여모 원페이지</a>
+                </li>
+                <li>
+                  <a href="">어여모 원페이지 미니</a>
+                </li>
+              </ul>
+            </li>
+            <li class="m_li_6">
+              <a href="#">
+                <em>커뮤니티</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_6">
+                <li>
+                  <a href="">약사에게 물어보세요</a>
+                </li>
+                <li>
+                  <a href="">약사끼리 묻고답하기</a>
+                </li>
+                <li>
+                  <a href="">약사끼리 구인/구직</a>
+                </li>
+                <li>
+                  <a href="">약사끼리 사고팔고</a>
+                </li>
+              </ul>
+            </li>
+            <li class="m_li_7">
+              <a href="join.html">
+                <em>고객센터</em>
+              </a>
+              <!-- inner menu -->
+              <ul class="inner_menu im_7">
+                <li>
+                  <a href="join.html">회원가입 및 유형안내</a>
+                </li>
+                <li>
+                  <a href="">정회원 신청 및 혜택</a>
+                </li>
+                <li>
+                  <a href="">약사회원인증</a>
+                </li>
+                <li>
+                  <a href="">1:1 문의</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="btn_mall">
+          <ul>
+            <li class="btn_mall_l">
+              <a href="#">
+                <em>어여모몰</em>
+              </a>
+            </li>
+            <li class="btn_mall_r">
+              <a href="#">
+                <em>사업자몰</em>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a class="kakao">
+          <img src="img/header_kakao.png" />
+        </a>
+      </article>
+    </header>
+    <a href="#" id="side_close" class="side_close on" onclick="close()" style="top: 0px;">
+      어사이드 닫기
+    </a>
+    <div id="layout_side">
+      <div class="aside_info">
+        <ul>
+          <li class="as_left">
+            <span class="gray_06">로그인하세요.</span>
+          </li>
+          <li class="as_right">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+          </li>
+        </ul>
+      </div>
+      <div id="mgnb">
+        <ul>
+          <li class="mgnbDep1" onclick="menuOpen()">
+            <span>어여모 소개</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">비전&미션</a>
+              </li>
+              <li>
+                <a href="#">CI 소개</a>
+              </li>
+              <li>
+                <a href="#">오시는 길</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mgnbDep1">
+            <span>어여모 소식</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mgnbDep1">
+            <span>건강백서</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mgnbDep1">
+            <span>교육센터</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mgnbDep1">
+            <span>학술정보센터</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mgnbDep1">
+            <span>커뮤니티</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mgnbDep1">
+            <span>고객센터</span>
+            <ul class="dep2">
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+              <li>
+                <a href="#">인사말</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="wrap_aside">
+        <div class="shop_list">
+          <a href="">어여모몰</a>
+          <a href="">사업자몰</a>
+        </div>
+      </div>
+      <div class="aside_main_menu">
+        <ul>
+          <li class="em_my">
+            <a href="">
+              <span>MY 쇼핑</span>
+            </a>
+          </li>
+          <li class="em_cart">
+            <a href="">
+              <span>장바구니</span>
+            </a>
+          </li>
+          <li class="em_order">
+            <a href="">
+              <span>주문조회</span>
+            </a>
+          </li>
+          <li class="em_wish">
+            <a href="">
+              <span>위시리스트</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="wrap_aside">
+        <h3 class="v2">
+          <span>최근 본 상품</span>
+        </h3>
+      </div>
+      <p class="no_data">
+        최근 본 상품이 없습니다.
+      </p>
+    </div>
+    <div id="side_bg"></div>
+    <main>
+      <div id="main_wrap">
+        <section id="sec1">
+          <article>
+            <h2>
+              Tailored
+              <br />
+              healthcare,
+              <br />
+              Together
+            </h2>
+            <p>
+              소아, 여성, 임부, 노인 나아가 국민건강을 위해 힘쓰는 약사님들과
+              함께 합니다.
+            </p>
+            <a href="join.html" class="join_info">
+              <em class="p_arrow"></em>
+              회원혜택 및 유형안내
+            </a>
+          </article>
+        </section>
+        <section id="sec2">
+          <article class="sec2_inner">
+            <div class="mv_c">
+              <img src="img/mv_c.png" />
+            </div>
+            <div class="txt_box">
+              <strong>
+                토탈헬스케어를 위해
+                <br />
+                약사와 고객과 함께 합니다.
+              </strong>
+              <p>
+                어여모는 어린이, 여성 나아가 국민의 건강관리 길라잡이 역할을
+                합니다.
+                <br />
+                어여모 플랫폼은 약국이 최적의 토탈헬스케어 서비스를 제공할 수
+                있도록 안내하며, 전문약사 교육을 통해 개인맞춤형 건강관리
+                서비스가 가능하도록 도와줍니다.
+              </p>
+            </div>
+            <ul class="link_list">
+              <li>
+                <a href="join.html">
+                  <div class="li_txt">
+                    <span class="icon_phill"></span>
+                    회원 가입 및
+                    <br />
+                    유형 안내
+                  </div>
+                  <span class="icon_box">
+                    <img src="img/main_list_icon1.png" />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="li_txt">
+                    <span class="icon_phill"></span>
+                    정회원 신청 및
+                    <br />
+                    혜택
+                  </div>
+                  <span class="icon_box">
+                    <img src="img/main_list_icon2.png" />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="li_txt">
+                    <span class="icon_phill"></span>
+                    어여모몰
+                    <br />
+                    (비개국약사전용)
+                  </div>
+                  <span class="icon_box">
+                    <img src="img/main_list_icon3.png" />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="li_txt">
+                    <span class="icon_phill"></span>
+                    사업자몰
+                    <br />
+                    (개국약사전용)
+                  </div>
+                  <span class="icon_box">
+                    <img src="img/main_list_icon4.png" />
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </article>
+        </section>
+        <section id="sec3">
+          <article class="sec3_inner">
+            <div class="s3_inner_wrap">
+              <div class="mc4_c">
+                <span>Health</span>
+              </div>
+              <h2>건강백서</h2>
+              <ul>
+                <li>
+                  <a href="health.html">
+                    <div>
+                      <img src="img/mc4_1.jpg" />
+                    </div>
+                    <p>건강상식</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="img/mc4_2.jpg" />
+                    </div>
+                    <p>건강정보TV</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="img/mc4_3.jpg" />
+                    </div>
+                    <p>매거진</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </section>
+        <section id="sec4">
+          <article class="s4_inner">
+            <div class="s4_wrap">
+              <div class="mc4_left">
+                <div class="mc_board">
+                  <div class="mc_title">
+                    <h2>Notice</h2>
+                    <a href="notice.html">
+                      <em>
+                        <img src="img/btn_arrow2.png" />
+                      </em>
+                    </a>
+                  </div>
+                  <ul class="mc4_list">
+                    <li>
+                      <div class="mc4_div">
+                        <p>
+                          <a href="#">
+                            재난지원금 약국사용 포스터 다운로드 하세요
+                          </a>
+                        </p>
+                        <span>2021-09-07</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="mc4_div">
+                        <p>
+                          <a href="#">
+                            【어여모 웹심포】면역과 성장을 위한 건강솔루션 -
+                            [종료]
+                          </a>
+                        </p>
+                        <span>2021-08-26</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="mc4_div">
+                        <p>
+                          <a href="#">
+                            『프로비타포유 출시 기념 무료배송 이벤트』
+                          </a>
+                        </p>
+                        <span>2021-08-25</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mc4_right">
+                <img src="img/main_bot.png" />
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- <div class="s4_bg">
+          <img src="img/main_bot_bg.png" />
+        </div> -->
+        <section id="sec5">
+          <div class="s5_inner">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>
+                    <img src="img/mb_arrow3.png" />
+                  </span>
+                  <div class="s5_txtbox">
+                    <strong>프로비타포키즈</strong>
+                    <p>
+                      우리아이 액상형 프리미엄 어린이 멀티비타민
+                      '프로비타포키즈'
+                    </p>
+                  </div>
+                  <div class="s5_iconbox">
+                    <img src="img/mb_img4.png" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>
+                    <img src="img/mb_arrow2.png" />
+                  </span>
+                  <div class="s5_txtbox">
+                    <strong>KIMS</strong>
+                    <p>
+                      근거기반, 가장 신뢰할 수 있는 의약정보를 KIMS에서
+                      확인하세요.
+                    </p>
+                  </div>
+                  <div class="s5_iconbox">
+                    <img src="img/mb_img2.png" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>
+                    <img src="img/mb_arrow1.png" />
+                  </span>
+                  <div class="s5_txtbox">
+                    <strong>한국마더세이프</strong>
+                    <p>
+                      건강한 임신, 행복한 임신 임산부약물정보센터,
+                      한국마더세이프 전문상담센터
+                    </p>
+                  </div>
+                  <div class="s5_iconbox">
+                    <img src="img/mb_img3.png" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <section id="footer_wrap">
+        <div class="footer_inner">
+          <a href="main.html">
+            <img src="img/f_logo.png" />
+          </a>
+          <address>
+            <ul>
+              <li>
+                <span>사업자등록번호 :</span>
+                <span
+                  >175-86-00797
+                  <a href="#">[사업자정보확인]</a>
+                </span>
+              </li>
+              <li>
+                <span>대표자 :</span>
+                <span>정혜진 </span>
+              </li>
+              <li>
+                <span>주소 :</span>
+                <span
+                  >경기도 용인시 기흥구 흥덕중앙로 120 (UTOWER) 1층 120호</span
+                >
+              </li>
+              <li>
+                <span>대표전화 :</span>
+                <a href="#" class="tel">031-214-6775</a>
+              </li>
+              <li>
+                <span>팩스 :</span>
+                <span>031-214-6773</span>
+              </li>
+            </ul>
+          </address>
+          <div class="footer_sns_wrap">
+            <div class="f_sns">
+              <a href="#">
+                <img src="img/footer_icon_insta.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="img/footer_icon_Facebook.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="img/footer_icon_youtube.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="img/footer_icon_blog.png" alt="" />
+              </a>
+            </div>
+            <div class="f_sns_right">
+              <ul>
+                <li>
+                  <a href="join.html">회원가입</a>
+                </li>
+                <li>
+                  <a href="#">제휴문의</a>
+                </li>
+                <li>
+                  <a href="#">이용약관</a>
+                </li>
+                <li>
+                  <a href="#">개인정보취급방침</a>
+                </li>
+              </ul>
+              <p>
+                Copyrights ⓒ 2020
+                <span> 어여모</span>
+                . Corporation All rights reserved.
+              </p>
+              <div>
+                <a href="#">
+                  <img src="img/kcp.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/header_footer.js"></script>
+  </body>
+</html>

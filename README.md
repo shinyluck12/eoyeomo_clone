@@ -9,8 +9,6 @@
 <br>
 -개발 인원: 1인
 <br>
--깃허브: https://github.com/shinyluck12/eoyeomo_clone
-<br>
 <br>
 -설명: 전 프로젝트보다 복작합 레이아웃 구성하는 법을 배운 작업이었습니다.
 <br>

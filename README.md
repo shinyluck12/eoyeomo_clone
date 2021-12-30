@@ -3,24 +3,34 @@
 -링크: http://vampireapire12.dothome.co.kr
 <br>
 <br>
--개발 기간: 2021.7 ~ 2021.8
+-개발 기간: 2021.9 ~ 2021.10
 <br>
--개발 언어: HTML, CSS
+-개발 언어: HTML, CSS, JS-jQuery
 <br>
--개발 인원: 1인
+-개발 인원: 2인
 <br>
--깃허브: https://github.com/shinyluck12/eoyeomo_clone
+-깃허브: https://github.com/shinyluck12/kumkang_renewal
 <br>
 <br>
--설명: 전 프로젝트포다 복잡한 레이아웃을 구성하는 방법을 공부했습니다.
+-설명: 첫 팀프로젝트 입니다. 금강제화 홈페이지를 리뉴얼했습니다.
 <br>
-특히, 다양한 스마트 기기의 화면 크기에 맞춘 반응형 화면을 구성하는 법을 알게 되었습니다.
+혼자서 하는 프로젝트만 하다가 처음으로 협업을 하는 작업을 했더니 어려움이 많았습니다.
 <br>
-미디어쿼리의 사용법을 익힌 프로젝트였습니다.
+각자 페이지를 맡아서 작업하여도, 가이드라인을 확실히 정해놓지 않으면 글씨크기나 패딩값이 뒤죽박죽이 된다는 점.
+<br>
+책임감을 가지고 하지 않으면 피해 보는 사람이 생기는 점 등등 개인 프로젝트포다 훨씬 더 많은 것을 배울 수 있었습니다.
 <br>
 <br>
 -스크린샷
 <br>
-<a href="https://ibb.co/NS9RF5m"><img src="https://i.ibb.co/4d8kFzY/eoyeomo-main-pc.png" alt="eoyeomo-main-pc" border="0"></a>
-<a href="https://ibb.co/cF1kxYT"><img src="https://i.ibb.co/SnP5Jfv/eoyeomo-health-pc.png" alt="eoyeomo-health-pc" border="0"></a>
-<a href="https://ibb.co/f8hwzh2"><img src="https://i.ibb.co/pWtFBtx/eoyeomo-join-mob.png" alt="eoyeomo-join-mob" border="0"></a>
+*리뉴얼 하기 전 홈페이지
+<br>
+<a href="https://ibb.co/z6Z2PMw"><img src="https://i.ibb.co/phdK47p/kumkang-or1.png" alt="kumkang-or1" border="0"></a>
+<br>
+<br>
+*리뉴얼 후 홈페이지
+<br>
+<a href="https://ibb.co/XpvvJDL"><img src="https://i.ibb.co/3WLLhvd/kumkang-main2.png" alt="kumkang-main2" border="0"></a>
+<a href="https://ibb.co/6PwvCSN"><img src="https://i.ibb.co/tsKZr63/kumkang-service2.png" alt="kumkang-service2" border="0"></a>
+<a href="https://ibb.co/Gnjf7k5"><img src="https://i.ibb.co/MZLynpC/kumkang-store2.png" alt="kumkang-store2" border="0"></a>
+<a href="https://ibb.co/HrWC6mL"><img src="https://i.ibb.co/Cnk6gxp/kumkang-bs2.png" alt="kumkang-bs2" border="0"></a>
